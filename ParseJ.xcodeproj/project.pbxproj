@@ -13,6 +13,8 @@
 		4D0FFA5623DA4749000029E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FFA5523DA4749000029E0 /* Assets.xcassets */; };
 		4D0FFA5923DA4749000029E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FFA5823DA4749000029E0 /* Preview Assets.xcassets */; };
 		4D0FFA5C23DA4749000029E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FFA5A23DA4749000029E0 /* LaunchScreen.storyboard */; };
+		4D0FFA6423DA481B000029E0 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FFA6323DA481B000029E0 /* NetworkingManager.swift */; };
+		4D0FFA6623DA486B000029E0 /* DataListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FFA6523DA486B000029E0 /* DataListEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4D0FFA5823DA4749000029E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D0FFA5B23DA4749000029E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0FFA5D23DA4749000029E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0FFA6323DA481B000029E0 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		4D0FFA6523DA486B000029E0 /* DataListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4D0FFA5A23DA4749000029E0 /* LaunchScreen.storyboard */,
 				4D0FFA5D23DA4749000029E0 /* Info.plist */,
 				4D0FFA5723DA4749000029E0 /* Preview Content */,
+				4D0FFA6323DA481B000029E0 /* NetworkingManager.swift */,
+				4D0FFA6523DA486B000029E0 /* DataListEntry.swift */,
 			);
 			path = ParseJ;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0FFA5023DA4748000029E0 /* AppDelegate.swift in Sources */,
+				4D0FFA6423DA481B000029E0 /* NetworkingManager.swift in Sources */,
 				4D0FFA5223DA4748000029E0 /* SceneDelegate.swift in Sources */,
+				4D0FFA6623DA486B000029E0 /* DataListEntry.swift in Sources */,
 				4D0FFA5423DA4748000029E0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
